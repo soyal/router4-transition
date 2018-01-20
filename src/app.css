@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+}
+
+.nav-item {
+  font-size: 18px;
+  color: #55a;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.nav-item.active {
+  text-decoration: line-through;
+}
+
+.pages {
+  position: relative;
+  margin-top: 200px;
+}
+.page {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background: #53a;
+}

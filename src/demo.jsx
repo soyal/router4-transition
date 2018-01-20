@@ -1,9 +1,9 @@
 /**
- * react router4 过场动画
+ *CSSTransition 简单例子
  */
 import React, { Component } from 'react'
 import { CSSTransition } from 'react-transition-group'
-import './index.css'
+import './demo.css'
 import 'animate.css/animate.min.css'
 
 class CSSTransitionDemo extends Component {
